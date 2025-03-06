@@ -1,10 +1,11 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/Dashboard": "pages/Dashboard.js",
-  "/auth/login": "pages/auth/login.js",
-  "/roll-dice": "pages/roll-dice.js",
-  "/auth/register": "pages/auth/register.js",
-  "/game": "pages/game.js",
-  "/_document": "pages/_document.js"
+  "/Dashboard": "pages/Dashboard.html",
+  "/auth/login": "pages/auth/login.html",
+  "/auth/register": "pages/auth/register.html",
+  "/game": "pages/game.html",
+  "/roll-dice": "pages/roll-dice.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }
