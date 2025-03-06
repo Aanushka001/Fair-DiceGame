@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/L0CQ0NRILT8wu0h55_ylN/_buildManifest.js",
-    "static/L0CQ0NRILT8wu0h55_ylN/_ssgManifest.js"
+    "static/yyS24VcrPILQBBXoWgEKN/_buildManifest.js",
+    "static/yyS24VcrPILQBBXoWgEKN/_ssgManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/webpack-4154ad673c9aedd9.js",
@@ -63,7 +63,7 @@
       "static/chunks/webpack-4154ad673c9aedd9.js",
       "static/chunks/framework-2c23b4cc2413fc70.js",
       "static/chunks/main-058fba771c84719c.js",
-      "static/chunks/pages/roll-dice-e2d9ac4799ab4850.js"
+      "static/chunks/pages/roll-dice-a09d536b677965bf.js"
     ]
   },
   "ampFirstPages": []

@@ -1,10 +1,10 @@
 {
   "/_app": "pages/_app.js",
-  "/Dashboard": "pages/Dashboard.js",
   "/_error": "pages/_error.js",
-  "/auth/register": "pages/auth/register.js",
-  "/game": "pages/game.js",
+  "/Dashboard": "pages/Dashboard.js",
   "/auth/login": "pages/auth/login.js",
   "/roll-dice": "pages/roll-dice.js",
+  "/auth/register": "pages/auth/register.js",
+  "/game": "pages/game.js",
   "/_document": "pages/_document.js"
 }
