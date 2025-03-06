@@ -1,4 +1,12 @@
 {
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}
+
+{
   "dependencies": {
     "@motionone/vue": "^10.16.4",
     "lodash": "^4.17.21"
