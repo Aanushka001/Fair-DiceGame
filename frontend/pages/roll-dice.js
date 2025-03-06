@@ -1,4 +1,3 @@
-
 "use client";
 import { useState, useEffect } from "react";
 import { rollDice } from "../services/gameService";
@@ -7,14 +6,25 @@ const RollDice = () => {
   const [betAmount, setBetAmount] = useState(10);
   const [balance, setBalance] = useState(1000);
   const [result, setResult] = useState(null);
-  const token = localStorage.getItem("token");
+  const [token, setToken] = useState(null);
 
+  // Ensure localStorage is only accessed on the client side
   useEffect(() => {
-    const savedBalance = localStorage.getItem("balance");
-    if (savedBalance) setBalance(Number(savedBalance));
+    if (typeof window !== "undefined") {
+      const storedToken = localStorage.getItem("token");
+      const savedBalance = localStorage.getItem("balance");
+      
+      if (storedToken) setToken(storedToken);
+      if (savedBalance) setBalance(Number(savedBalance));
+    }
   }, []);
 
   const handleRoll = async () => {
+    if (!token) {
+      console.error("No token found. User not authenticated.");
+      return;
+    }
+
     try {
       const data = await rollDice(token, betAmount);
       setResult(data.rollResult);
