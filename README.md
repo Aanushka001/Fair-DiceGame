@@ -1,6 +1,3 @@
-Here's a well-structured **README.md** file in proper markdown format:  
-
----
 
 ```md
 # 🎲 Fair Dice Game
