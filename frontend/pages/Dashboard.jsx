@@ -1,5 +1,5 @@
 import Leaderboard from "../components/Leaderboard";
-import ""
+
 export default function Dashboard() {
     return (
         <div className="flex flex-col items-center">
@@ -8,3 +8,4 @@ export default function Dashboard() {
         </div>
     );
 }
+
