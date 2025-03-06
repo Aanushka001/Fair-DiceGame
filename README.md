@@ -156,8 +156,3 @@ cd Fair-DiceGame
    ```
 3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
----
-
-## 📝 License
-This project is licensed under the **MIT License**.
-```
