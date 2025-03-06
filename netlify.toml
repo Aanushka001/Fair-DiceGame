@@ -1,0 +1,8 @@
+[build]
+  command = "cd frontend && npm install && npm run build"
+  publish = "frontend/out"
+
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
