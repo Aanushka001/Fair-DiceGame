@@ -19,10 +19,9 @@ A **Provably Fair Dice Game** built with **React/Next.js** for the frontend and 
 - **Styled UI:** Fully designed and responsive frontend.
 
 ---
-
 ## 🛠 Project Structure
 
-```
+```bash
 fair-dice/
 ├── backend/
 │   ├── config/
@@ -82,9 +81,6 @@ fair-dice/
     ├── package.json
     ├── tailwind.config.js
     └── tsconfig.json
-```
-
----
 
 ## 🏗 Setup & Installation
 
@@ -138,12 +134,11 @@ cd Fair-DiceGame
 - Make sure MongoDB is running.
 - Open **MongoDB Compass** and connect using:
   ```
-  mongodb://localhost:27017/fair-dice
+  mongodb://localhost:27017/dicegame
   ```
 - The database will store:
-  - **Users**
-  - **Game History**
-  - **Leaderboards**
+  - **users**
+  - **games**
 
 ---
 
